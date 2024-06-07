@@ -327,3 +327,6 @@ body{
   text-decoration: none;
   color: black;
 }
+::selection{
+  background-color: lightblue;
+}

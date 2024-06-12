@@ -2,6 +2,57 @@
     padding:auto;
     display: flex;
 }
+@media (max-width: 1200px) {
+  .grid-1,
+  .grid-2,
+  .grid-3,
+  .grid-4,
+  .grid-5,
+  .grid-6 {
+    grid-template-columns: 1fr;
+  }
+
+  .grid-1-item-2 img,
+  .grid-2-item-1 img,
+  .grid-3-item-1 img,
+  .grid-4-item2 img,
+  .grid-5-item-1 img {
+    width: 100%;
+    height: auto;
+  }
+
+  .grid-1-item-1 h1,
+  .grid-1-item-1 p,
+  .grid-2-item-2 h1,
+  .grid-2-item-2 p,
+  .grid-3-item-2 h2,
+  .grid-3-item-2 h3,
+  .grid-4-item-1 h2,
+  .grid-4-item-1 h3,
+  .grid-5-item-2 h2,
+  .grid-5-item-2 h3,
+  .grid-6-item-1 h3 {
+    text-align: center;
+  }
+  .content {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .grid-1-item-1 h1,
+  .grid-1-item-1 p,
+  .grid-2-item-2 h1,
+  .grid-2-item-2 p,
+  .grid-3-item-2 h2,
+  .grid-3-item-2 h3,
+  .grid-4-item-1 h2,
+  .grid-4-item-1 h3,
+  .grid-5-item-2 h2,
+  .grid-5-item-2 h3,
+  .grid-6-item-1 h3 {
+    font-size: large;
+  }}
 .content p{
     padding-left:20px;
     padding-top: 15px;
